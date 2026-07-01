@@ -84,6 +84,34 @@ const rssHref = getRelativeLocaleUrl(
     <meta name="theme-color" content="" />
 
     <!-- Extra head content injected by child layouts (e.g. JSON-LD, article meta) -->
+    <!-- JSON-LD Person -->
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Massimo Lo Polito",
+      "url": "https://lupercus.cc",
+      "sameAs": [
+        "https://linkedin.com/in/massimolopolito",
+        "https://github.com/massimolopolito"
+      ],
+      "jobTitle": "Cybersecurity Student",
+      "alumniOf": [
+        { "@type": "EducationalOrganization", "name": "Università della Calabria", "url": "https://www.unical.it" },
+        { "@type": "EducationalOrganization", "name": "Università Mercatorum", "url": "https://www.unimercatorum.it" }
+      ],
+      "knowsAbout": ["Cybersecurity", "Threat Intelligence", "Honeypot Research", "Healthcare Security", "Blue Team Operations", "NIS2 Compliance"],
+      "address": { "@type": "PostalAddress", "addressLocality": "Castrovillari", "addressRegion": "Calabria", "addressCountry": "IT" }
+    })} />
+
+    <!-- JSON-LD WebSite -->
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Lupercus",
+      "url": "https://lupercus.cc",
+      "description": site.description,
+      "author": { "@type": "Person", "name": "Massimo Lo Polito" }
+    })} />
     <slot name="head" />
 
     {

@@ -11,7 +11,7 @@ export default defineAstroPaperConfig({
     lang: "it",
     timezone: "Europe/Rome",
     dir: "ltr",
-    // googleVerification: "abc123",  // Lo popoli dopo, in Parte 20 (Google Search Console)
+    googleVerification: "google2d34094777bfd14f.html", // googleVerification: "abc123",  // Lo popoli dopo, in Parte 20 (Google Search Console)
   },
   posts: {
     perPage: 8,
