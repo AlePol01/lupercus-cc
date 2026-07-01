@@ -121,3 +121,37 @@
     }
   }
 }
+@layer base {
+  /* Font base — body usa Schibsted Grotesk */
+  html {
+    font-family: var(--font-app);
+  }
+
+  /* Titoli usano Fraunces */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    font-weight: 700;
+  }
+
+  /* Code usa JetBrains Mono */
+  code, pre, kbd, samp {
+    font-family: var(--font-mono);
+  }
+
+  /* Scala tipografica */
+  h1 {
+    @apply text-4xl md:text-5xl leading-tight;
+  }
+
+  h2 {
+    @apply text-2xl md:text-3xl leading-snug;
+  }
+
+  h3 {
+    @apply text-xl md:text-2xl leading-snug;
+  }
+
+  p, li {
+    @apply text-base leading-relaxed;
+  }
+}

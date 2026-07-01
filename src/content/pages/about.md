@@ -1,37 +1,42 @@
 ---
 title: "About"
-description: "A bit about me and this blog."
 ---
 
-AstroPaper is a minimal, accessible and SEO-friendly blog theme built with [Astro](https://astro.build/) and [Tailwind CSS](https://tailwindcss.com/).
+# Massimo Lo Polito
 
-![Astro Paper](@/assets/images/astropaper-og.jpg)
+Studio Medicina e Chirurgia all'Università della Calabria, in parallelo a una laurea in Comunicazione Multimediale all'Università Mercatorum. Sto costruendo competenze in cybersecurity con focus su healthcare security, NIS2 e regulated industries.
 
-AstroPaper provides a solid foundation for blogs, or even portfolios\_ with full markdown support, built-in dark mode, and a clean layout that works out-of-the-box.
+## Cosa trovi su Lupercus
 
-The blog posts in this theme also serve as guides, docs or example articles\_ making AstroPaper a flexible starting point for your next content-driven site.
+Writeup periodici come operatore di un honeypot pubblico. L'honeypot — accessibile su [honey.lupercus.cc](https://honey.lupercus.cc:64297/) — è basato su T-Pot di telekom-security ed espone una ventina di servizi vulnerabili per studiare cosa attaccano gli scanner automatici nel 2026.
 
-## Features
+Pubblico:
 
-AstroPaper comes with a set of useful features that make content publishing easy and effective:
+- Recap settimanali dei dati raccolti (top ASN, port scan trends, credential wordlist, CVE attempts)
+- Writeup tecnici su pattern di attacco notevoli
+- Riflessioni su cybersecurity in sanità, NIS2, medical IoT security
+- Appunti di preparazione certificazioni (CompTIA, Fortinet)
 
-- SEO-friendly
-- Fast performance
-- Light & dark mode
-- Highly customizable
-- Organizable blog posts
-- Responsive & accessible
-- Static search with [PageFind](https://pagefind.app/)
-- Automatic social image generation
+## Background
 
-and so much more.
+- **Università della Calabria (UNICAL)** — Medicina e Chirurgia, dal 2025
+- **Università Mercatorum** — Comunicazione Multimediale L20, chiusura ottobre 2026
+- **Informa, Associazione studentesca DFSSN UNICAL** — gestione tecnica 
 
-## Show your support
+## Direzione professionale
 
-If you like [AstroPaper](https://github.com/satnaing/astro-paper), consider giving it a star ⭐️.
+Futuro **SOC analyst con focus healthcare**. La combinazione medicina + cybersecurity è rara e rilevante per il settore sanitario italiano, target prioritario sotto NIS2.
 
-Found a bug 🐛 or have an improvement ✨ in mind? Feel free to open an [issue](https://github.com/satnaing/astro-paper/issues), submit a [pull request](https://github.com/satnaing/astro-paper/pulls) or start a [discussion](https://github.com/satnaing/astro-paper/discussions).
+Disponibile per stage in cybersecurity dal 2027. Remoto o presenza in Calabria/Sud Italia.
 
-If you find this theme helpful, you can also [sponsor me on GitHub](https://github.com/sponsors/satnaing) or [buy me a coffee](https://buymeacoffee.com/satnaing) to show your support — every penny counts.
+## Certificazioni
 
-Kyay zuu! 🙏🏼
+- **Fortinet Certified Fundamentals — Cybersecurity (FCF)** — giugno 2026
+- **Fortinet Certified Associate — Cybersecurity (FCA)** — in corso
+- **CompTIA Security+ SY0-701** — in studio
+
+## Contatti
+
+- LinkedIn — [linkedin.com/in/massimolopolito](https://linkedin.com/in/massimolopolito)
+- GitHub — [github.com/massimolopolito](https://github.com/AlePol01)
+- Email — LoPolitoMassimo@protonmail.com
