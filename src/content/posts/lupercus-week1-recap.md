@@ -1,6 +1,6 @@
 ---
 author: Massimo Lo Polito
-pubDatetime: 2026-07-05T10:00:00.000Z
+pubDatetime: 2026-07-04T10:00:00.000Z
 title: "Week One: 639,000 Knocks, Almost No Lock-Picking"
 slug: lupercus-week1-recap
 featured: false
@@ -14,6 +14,8 @@ description: "Seven days of data from a public cloud honeypot: a gold rush that 
 ---
 
 The first week is in. Seven days, 639,000 recorded attack events, sixteen honeypot sensors listening. Here is what the data actually says.
+
+![Lupercus week 1 — main dashboard](/assets/images/week1-dashboard.png)
 
 ## The Number That Matters Less
 
@@ -40,6 +42,8 @@ The port histogram tells the same story: 3389 and 5060 are permanent fixtures, r
 
 ## Geographic Specialization
 
+![Attacker reputation, OS fingerprinting, country and port breakdown](/assets/images/week1-analytics.png)
+
 The country-and-port breakdown reveals something more interesting than raw origin counts. **Germany** traffic skews heavily toward port 5060 — SIP brute force aimed at VoIP infrastructure. **Azerbaijan** traffic concentrates almost entirely on port 3389 — RDP credential stuffing. The United States shows a mixed profile across ports, consistent with distributed botnet infrastructure rather than a single campaign.
 
 Top source countries by volume: United States, Germany, Azerbaijan, The Netherlands, Bangladesh, with Canada, Taiwan, France, Vietnam, and the Philippines rounding out the top ten. The geographic spread matters less than the port specialization: whoever is operating these scanners has segmented their tooling by target type.
@@ -56,9 +60,9 @@ The IDS numbers put everything in context. Out of 639,000 events, Suricata logge
 
 The dominant Suricata category is **Generic Protocol Command Decode**, followed by **Misc Activity** and **Not Suspicious Traffic**. The alert category histogram is flat and rhythmic, not spiked. There is no exploitation attempt pattern visible. This is reconnaissance and credential stuffing: **door-knocking, not lock-picking**.
 
-The CVE finding deserves a separate note when the full CVE ID becomes readable in the next data pull.
-
 ## Credential Intelligence
+
+![Username and password clouds, top ASNs, top source IPs, Suricata signatures](/assets/images/week1-credentials.png)
 
 The Cowrie SSH/Telnet honeypot and the other credential-capturing sensors produced the most operationally interesting output of the week.
 
@@ -87,4 +91,4 @@ Three things are clear from the first seven days:
 
 ---
 
-*Week 1 data covers 28 June – 4 July 2026. All data collected by T-Pot (telekom-security) running on Hetzner Cloud, accessible via Cloudflare Tunnel. Next recap: Saturday 11 July.*
+*Week 1 data covers 28 June – 4 July 2026. All data collected by T-Pot (telekom-security) running on Hetzner Cloud. Next recap: Saturday 11 July.*
