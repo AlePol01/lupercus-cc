@@ -38,5 +38,5 @@ Disponibile per stage in cybersecurity dal 2027. Remoto o presenza in Calabria/S
 ## Contatti
 
 - LinkedIn — [linkedin.com/in/massimolopolito](https://linkedin.com/in/massimolopolito)
-- GitHub — [github.com/massimolopolito](https://github.com/AlePol01)
+- GitHub — [github.com/AlePol01](https://github.com/AlePol01)
 - Email — LoPolitoMassimo@protonmail.com

@@ -317,6 +317,6 @@ La differenza è marcata. Il traffico generico è dominato dagli USA (via hostin
 
 ---
 
-*Lupercus è un progetto personale di apprendimento blue team, parte del mio percorso verso un ruolo da SOC analyst con focus su healthcare security. Se trovi errori tecnici o vuoi discutere i risultati, scrivimi su [LinkedIn](https://linkedin.com/in/massimolopolito) o via email a LoPolitoMassimo@protonmail.com.*
+*Lupercus è un progetto personale di apprendimento blue team, parte del mio percorso verso un ruolo da SOC analyst con focus su healthcare security. Se trovi errori tecnici o vuoi discutere i risultati, scrivimi su [LinkedIn](https://www.linkedin.com/in/massimolopolito) o via email a LoPolitoMassimo@protonmail.com.*
 
 *Recap settimanali ogni sabato. Il prossimo (5 luglio 2026) sarà in inglese.*

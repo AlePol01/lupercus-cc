@@ -3,7 +3,7 @@ import { defineAstroPaperConfig } from "./src/types/config";
 export default defineAstroPaperConfig({
   site: {
     url: "https://lupercus.cc/",
-    title: "Lupercus",
+    title: "Lupercus — Massimo Lo Polito | Cybersecurity & Honeypot",
     description: "Writeup di threat intelligence e blue team da un honeypot pubblico. Cybersecurity in sanità, NIS2, ricerca difensiva.",
     author: "Massimo Lo Polito",
     profile: "https://lupercus.cc/about/",
