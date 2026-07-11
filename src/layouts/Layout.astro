@@ -51,7 +51,7 @@ const rssHref = getRelativeLocaleUrl(
     />
 
     <!-- Primary meta -->
-    <title>{title}</title>
+    <title>{title === site.title ? "Lupercus — Massimo Lo Polito | Cybersecurity & Honeypot" : title}</title>
     <meta name="title" content={title} />
     <meta name="description" content={description} />
     <meta name="author" content={site.author} />
